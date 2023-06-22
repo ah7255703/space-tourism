@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import logo from "../../public/shared/logo.svg";
 import Image from "next/image";
-import { H1, H2, H3, H4, H5 } from "../components/typography";
+import { H1, H2, H3, H4, H5 } from "../_components/typography";
 
 function TypographyPreview({
   children,

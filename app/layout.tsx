@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={cn(bellefair.variable,barlowCondensed.variable,'font-barlow_condensed')}>{children}</body>
+      <body className={cn(bellefair.variable,barlowCondensed.variable,'font-barlow_condensed bg-primary')}>{children}</body>
     </html>
   );
 }
